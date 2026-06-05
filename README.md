@@ -465,22 +465,6 @@ done
 
 ---
 
-# 🧠 Important Interview Topics
-
-- Linux File Permissions
-- Process Management
-- Networking Commands
-- Storage Management
-- EBS vs EFS
-- Package Management
-- Systemctl & Service Management
-- Shell Scripting
-- Nmap & Telnet
-- Disk Mounting
-- Docker & Containers
-- Git Version Control
-- SSH & Security
-
 ---
 
 # 📸 Linux Architecture
@@ -530,6 +514,6 @@ If this repository helps you:
 
 # 🚀 Happy Learning Linux 🐧
 
-### Made for DevOps & Cloud Students
+### Made for DevSecOps Linux Reference
 
 </div>
