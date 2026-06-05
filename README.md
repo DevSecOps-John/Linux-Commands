@@ -1,4 +1,4 @@
-# 🐧 Linux Commands for DevOps & Cloud Students
+# 🐧 Linux Commands for DevSecOps 
 
 <div align="center">
 
