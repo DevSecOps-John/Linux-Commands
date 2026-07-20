@@ -452,6 +452,7 @@ done
 
 | Command | Description |
 |---------|-------------|
+| `sudo netstat -tulnp` | Check Listening Ports Inside EC2 |
 | `kubectl get pods` | Kubernetes pods |
 | `kubectl get nodes` | Kubernetes nodes |
 | `docker ps` | Running containers |
@@ -464,6 +465,13 @@ done
 | `ansible --version` | Ansible version |
 
 ---
+# 🚀 19. Useful DevOps Installation Commands
+Install a web server (Apache or Nginx):
+sudo yum install -y httpd   # Amazon Linux
+sudo systemctl enable httpd
+sudo systemctl start httpd
+
+
 
 ---
 
