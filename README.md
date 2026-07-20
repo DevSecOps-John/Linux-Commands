@@ -448,13 +448,14 @@ done
 
 ---
 
-# 🚀 19. Useful DevOps Commands
+# 🚀 19. Useful Tshoot DevOps Commands
 
 | Command | Description |
 |---------|-------------|
 | `sudo netstat -tulnp` | Check Listening Ports Inside EC2 |
-| `kubectl get pods` | Kubernetes pods |
-| `kubectl get nodes` | Kubernetes nodes |
+| `sudo ss -tulnp | grep 80` | Filter and check if a service is running |
+| `curl -I http://localhost:80` | test locally If a web server is running, you’ll see HTTP headers|
+
 | `docker ps` | Running containers |
 | `aws s3 ls` | AWS S3 buckets |
 | `terraform init` | Terraform initialize |
@@ -465,13 +466,22 @@ done
 | `ansible --version` | Ansible version |
 
 ---
-# 🚀 19. Useful DevOps Installation Commands
+# 🚀 20. Useful DevOps Installation Commands
+
 Install a web server (Apache or Nginx):
 sudo yum install -y httpd   # Amazon Linux
 sudo systemctl enable httpd
 sudo systemctl start httpd
 
+or for Nginx:
+sudo amazon-linux-extras enable nginx1
+sudo yum install -y nginx
+sudo systemctl enable nginx
+sudo systemctl start nginx
 
+Checklist for Apache/NGNIX on Amazon Linux 2023
+Verify service status: Look for Active: active (running)
+sudo systemctl status httpd
 
 ---
 
